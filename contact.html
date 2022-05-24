@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>NAREN | CONTACT</title>
+    <link rel="icon" type="image/x-icon" href="./img/site_title_icon/contact_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="project.html">PROJECTS</a>
+        <a href="contact.html" class="active">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="./img/menu-bar.png" id="menu-icon">
+        </a>
+    </div>
+
+    <!-- main body -->
+    <div class="main_body">
+        <!-- form  -->
+        <div class="form_block">
+            <p id="hading">Contact Me</p>
+
+            <form action="/contact_data.php" method="post">
+                <div class="row">
+                    <div class="col-1">
+                        <label for="usr_name">Name :</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" id="usr_name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-1">
+                        <label for="mobail_num">Mobail NO :</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="number" id="mobail_num" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-1">
+                        <label for="email_id">Email ID :</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="email" id="email_id" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="massage_box">Message :</label>
+                    </div>
+                    <div class="col-2">
+                        <textarea name="message" id="massage_box" rows="5" cols="70" required></textarea>
+                    </div>
+                </div>
+                <div class="last_row">
+                    <div>
+
+                    </div>
+                    <div>
+                        <button type="reset" name="reset" class="btn" id="reset_btn">
+                            Reset
+                        </button>
+                        <button type="submit" name="submit" class="btn" id="submit_btn">
+                            Submit
+                        </button>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- footer  -->
+    <div class="footer">
+        <div class="footer-col-1">
+            <span>Copyright 2022 &#169; All Rights Reserved</span>
+        </div>
+        <div class="footer-col-2">
+            <a href="https://github.com/narengavli-svnit-02">
+                <img src="./img/footer_icon/github.png" class="footer_logo">
+            </a>
+            <a href="https://www.linkedin.com/in/narendragavli-svnit/">
+                <img src="./img/footer_icon/linkedin.png" class="footer_logo">
+            </a>
+            <a href="https://www.instagram.com/naren_gavli/">
+                <img src="./img/footer_icon/instagram.png" class="footer_logo">
+            </a>
+            <a href="">
+                <img src="./img/footer_icon/gmail.png" class="footer_logo">
+            </a>
+            <a href="https://twitter.com/naren_gavli">
+                <img src="./img/footer_icon/twitter.png" class="footer_logo">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

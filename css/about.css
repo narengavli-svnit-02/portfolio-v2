@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  height: 2px;
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+/* Programming languages */
+.bash_script {
+  width: 95%;
+  background-color: #04aa6d;
+}
+
+.cpp {
+  width: 80%;
+  background-color: #f606b2;
+}
+
+.python {
+  width: 60%;
+  background-color: #002fff;
+}
+
+/* Web development skills */
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.css {
+  width: 80%;
+  background-color: #f606b2;
+}
+
+.bootstrap {
+  width: 60%;
+  background-color: #002fff;
+}
+
+.js {
+  width: 50%;
+  background-color: #f44336;
+}
+
+.php {
+  width: 70%;
+  background-color: #ffea01;
+}
+
+.mysql {
+  width: 65%;
+  background-color: #00fffb;
+}
+
+/* main body */
+.main_body {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: aliceblue;
+  padding: 20px 25px;
+  margin: 1vh 0vw;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  /* border: wheat solid 2px; */
+}
+
+.row {
+  margin: 5px 0px;
+}
+
+ul {
+  border-left: 5px solid rgb(190, 249, 159);
+  list-style-type: none;
+  padding: 5px 15px;
+}
+
+li {
+  margin: 5px 0px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.about_me {
+  font-size: large;
+}
+
+/* Media Queries */
+@media screen and (max-width: 840px) {
+
+  /* main body  */
+  .main_body {
+    flex-direction: column;
+    font-size: 2vh;
+  }
+
+  .column {
+    margin: 2vh 0vw;
+    width: 100%;
+  }
+}
